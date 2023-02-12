@@ -1,7 +1,6 @@
-{//tsconfig.json是ts编译器的配置文件，ts编译器可以根据它的信息来对代码进行编译
+{ //tsconfig.json是ts编译器的配置文件，ts编译器可以根据它的信息来对代码进行编译
   "compilerOptions": {//编译器选项
     /* Visit https://aka.ms/tsconfig to read more about this file */
-
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
@@ -32,8 +31,7 @@
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
     // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
-    // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */
-    // "types": [],                                      /* Specify type package names to be included without being referenced in a source file. */
+    // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */                                   /* Specify type package names to be included without being referenced in a source file. */
     // "allowUmdGlobalAccess": true,                     /* Allow accessing UMD globals from modules. */
     // "moduleSuffixes": [],                             /* List of file name suffixes to search when resolving a module. */
     // "resolveJsonModule": true,                        /* Enable importing .json files. */
@@ -41,8 +39,8 @@
 
    
     /* JavaScript Support */
-    "allowJs": true, //是否对js文件进行编译，默认是false                           /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
-    "checkJs": true,//  检查js代码是否符合语法规范，默认值是false                             /* Enable error reporting in type-checked JavaScript files. */
+    // "allowJs": true, //是否对js文件进行编译，默认是false                           /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    // "checkJs": true,//  检查js代码是否符合语法规范，默认值是false                             /* Enable error reporting in type-checked JavaScript files. */
     // "maxNodeModuleJsDepth": 1,                        /* Specify the maximum folder depth used for checking JavaScript files from 'node_modules'. Only applicable with 'allowJs'. */
     /* Emit */
     // "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
